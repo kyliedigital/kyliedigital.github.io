@@ -13,7 +13,7 @@ body {
 }
 
 div.container {
-    width: 65em;
+    max-width: 65em;
     margin: auto;
     background-color: rgb(255, 255, 255);
 }
