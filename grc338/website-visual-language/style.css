@@ -8,7 +8,7 @@ body {
 } 
 
 div.home-container { 
-	background: url(billboard.png) center center fixed;
+	background: url(billboard.png) center center;
 	background-size: cover;
 	position: relative;
 	min-height: 100vh;
