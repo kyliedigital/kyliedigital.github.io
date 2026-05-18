@@ -10,12 +10,14 @@ img {
 div.container, div.home-container {
     max-width: 50em;
     margin: 0 auto;
+    background-color: #F3A2DB;
 }
 
 nav {
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family: "tiffin-latin-variable", sans-serif;
+    font-variation-settings: "wght" 300;
     margin:0 0 1em 0.5em;
+    text-transform: uppercase;
 }
 
 ul li {
@@ -24,15 +26,16 @@ ul li {
 }
 
 h1 {
-    width: 8em;
-    margin: 1em 0.5em;
+    width: 100%;
+    margin: 1em 0;
 }
 
 h2 {
-    font-family: serif;
-    font-weight: bold;
-    color: rgb(96,119,152);
+    font-family: "tiffin-latin-variable", sans-serif;
+    font-variation-settings: "wght" 300;
+    color: #F7593C;
     font-size: 3em;
+    text-transform: uppercase;
     
 }
 section.mainstory h2 {
@@ -42,39 +45,47 @@ section.mainstory h2 {
 
 section.secondary h2 {
     font-size: 2em;
-    padding-left: 0.3;
+    padding-left: 0.3em;
+    line-height: 1.2em;
+    padding-top: 0.5em;
 }
 
 section.tertiary h2 {
     font-size: 1.2em;
     margin: 0;
     padding-top: 0.5em;
-    border-top: 1px solid rgb(96,119,152);
+    border-top: 1px solid #4A4531;
 }
 
 p {
-    font-family: sans-serif;
-    color: rgb(0,0,0);
+    /*font-family: "helvetica-neue-lt-pro", sans-serif;
+    font-weight: 200;
+    font-style: normal;*/
+    font-family: "tiffin-latin-variable", sans-serif;
+    font-variation-settings: "wght" 300;
+    color: #4A4531;
     padding: 0 0 2em 0.5em;
     line-height: 1.3em;
 }
 
 a {
     text-decoration: none;
-    color: rgb(96,119,152);
+    color: #DEFA0C;;
 }
 
 figcaption {
-    font-family: sans-serif;
+    font-family: "tiffin-latin-variable", sans-serif;
+    font-variation-settings: "wght" 300;
     font-style: italic;
     color: rgb(93, 93, 93);
     padding: 0.2em 0 1em 0.5em;
 }
 
 footer {
-    background-color: rgb(96,119,152);
-    color: rgb(255,255,255);
-    font-family: sans-serif;
+    background-color: #DEFA0C;
+    font-family: "tiffin-latin-variable", sans-serif;
+    font-variation-settings: "wght" 300;
+    color: #F7593C;
     padding: 1em 0 1em 0.5em;
 }
 
@@ -87,7 +98,7 @@ article p {
 }
 
 aside {
-    background-color: rgb(205,207,253);
+    background-color: #DEFA0C;
 }
 
 aside figure {
@@ -131,7 +142,7 @@ aside section.secondary p {
     }
 
     div.container {
-        max-width: 60em;
+        max-width: 80em;
         padding: 0 1em;
         display: grid;
         grid-template-columns: 3fr 1fr;
@@ -175,7 +186,7 @@ aside section.secondary p {
         display: flex;
     }
 
-    section.mainstroy a figure img {
+    section.mainstory a figure img {
         object-fit: cover;
     }
 
@@ -213,5 +224,7 @@ aside section.secondary p {
     section.secondary a p {
         flex: 0 0 4em;
     }
+
+
 
 }
