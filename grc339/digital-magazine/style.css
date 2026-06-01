@@ -348,6 +348,10 @@ div.gallery-container input {
         background-color: #231f20;
     }
 
+	body {
+        background-color: #231f20;
+    }
+
     h1 {  
         background-image: url("Fits magazine logo alt.svg");  
         background-repeat: no-repeat;  
